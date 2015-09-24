@@ -6,8 +6,7 @@ import org.elasticsearch.plugin.streaming.aggregation.result.MemoryResultStorage
 public class StreamingAggregationModule extends AbstractModule {
     @Override
     protected void configure() {
-
-        bind(StreamingAggregationRestHandler.class).asEagerSingleton();
         bind(MemoryResultStorage.class).asEagerSingleton();
+        bind(StreamingAggregationRestHandler.class).asEagerSingleton();
     }
 }

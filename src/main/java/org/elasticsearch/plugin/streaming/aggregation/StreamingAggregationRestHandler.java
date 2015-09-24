@@ -28,15 +28,15 @@
         SearchRequest searchRequest;
         private Client client;
         private RestChannel channel;
-
+        private Object locker = new Object();
         @Inject
         public StreamingAggregationRestHandler(RestController restController, MemoryResultStorage memoryResultStorage, Settings settings, RestController controller, Client client, IndicesService indicesService) {
             super(settings, controller, client);
-            restController.registerHandler(GET, "/{index}/_hello", this);
-            restController.registerHandler(PUT, "/{index}/_hello", this);
+            restController.registerHandler(GET, "/{index}/_streaming_aggregation", this);
+            restController.registerHandler(PUT, "/{index}/_streaming_aggregation", this);
             this.memoryResultStorage = memoryResultStorage;
             this.indicesService = indicesService ;
-            registerLifecycleHandler();
+            //registerLifecycleHandler();
         }
 
         private void registerLifecycleHandler() {
@@ -76,18 +76,20 @@
         public void handleRequest(final RestRequest request, final RestChannel channel, Client client) {
             this.client = client;
             this.channel = channel;
-            searchRequest  = RestSearchAction.parseSearchRequest(request);
-            /*
-            String who = request.param("who");
-            String whoSafe = (who!=null) ? who : "world";
-            memoryResultStorage.addResult(whoSafe);
-            SearchResult seraSearchResult = new SearchResult();
-            String result = "";
-            Iterator<String> results = memoryResultStorage.results().iterator();
-            while(results.hasNext()){
-                result += results.next() + "\n";
+            if(request.hasParam("createContext")) synchronized (locker) {
+                try {
+                    Thread.sleep(1);
+                } catch (InterruptedException e) {
+                }
+                String id = "seach" + System.currentTimeMillis();
+                memoryResultStorage.put(id, request);
+                channel.sendResponse(new BytesRestResponse(RestStatus.OK, id));
             }
-            channel.sendResponse(new BytesRestResponse(OK, result));
-            */
+            else{
+                String id = request.param("id");
+                logger.info(id, id);
+                searchRequest = RestSearchAction.parseSearchRequest(memoryResultStorage.get(id));
+                client.search(searchRequest, new RestStatusToXContentListener<SearchResponse>(channel));
+            }
         }
     }

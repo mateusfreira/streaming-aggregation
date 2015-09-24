@@ -2,7 +2,9 @@ package org.elasticsearch.plugin.streaming.aggregation.result;
 
 
 
-import java.util.ArrayList;
+import org.elasticsearch.rest.RestRequest;
+
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -10,17 +12,17 @@ import java.util.List;
  */
 
 public class MemoryResultStorage {
-    private List<String> results = new ArrayList<String>();
+    private HashMap<String, org.elasticsearch.rest.RestRequest> searchs  = new HashMap();
 
-    public void addResult(String result){
-        this.results.add(result);
+    public void put(String id, RestRequest request){
+        this.searchs.put(id, request);
+    }
+
+    public RestRequest get(String id){
+        return this.searchs.get(id);
     }
 
     public void clearResults(){
-        results.clear();
-    }
-
-    public List<String> results(){
-        return results;
+        searchs.clear();
     }
 }
