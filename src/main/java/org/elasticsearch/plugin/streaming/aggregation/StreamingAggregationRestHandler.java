@@ -60,8 +60,8 @@ public class StreamingAggregationRestHandler extends BaseRestHandler implements 
                 Thread.sleep(1);
             } catch (InterruptedException e) {
             }
-            //String id = "search" + System.currentTimeMillis(); remove this comentary and the folow line
-            String id = "search" + 1;
+            String id = "search" + System.currentTimeMillis();
+            //String id = "search" + 1; use this to test
             memoryResultStorage.putRequest(id, request);
             channel.sendResponse(new BytesRestResponse(RestStatus.OK, id));
         }
