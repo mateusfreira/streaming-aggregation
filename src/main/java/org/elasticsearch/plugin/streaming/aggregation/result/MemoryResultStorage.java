@@ -55,7 +55,7 @@ public class MemoryResultStorage {
     }
 
     public boolean hasResponse(String id) {
-        logger.info("hasResponse" +this.get(id).hasResponse());
+        logger.info("hasResponse" + this.get(id).hasResponse());
         return this.hasSearch(id) && this.get(id).hasResponse();
     }
 
@@ -80,5 +80,9 @@ public class MemoryResultStorage {
 
     public void clearResults() {
         searchs.clear();
+    }
+
+    public void remove(String id) {
+        searchs.remove(id);
     }
 }
