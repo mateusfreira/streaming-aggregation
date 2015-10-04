@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc45982-55f9-4be5-b6b4-058c01b2a3cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/result/MemoryResultStorage.java" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/result/MemoryResultStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationRestHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationRestHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,116 +26,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StreamingAggregationRestHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DefaultSearchContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/DefaultSearchContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0666666">
+              <caret line="557" column="0" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#15929#15930#0" expanded="true" />
+                <element signature="e#15961#15962#0" expanded="true" />
+                <element signature="e#17290#17291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamingAggregationRestHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationRestHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="150" column="37" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="37" />
+            <state vertical-scroll-proportion="-0.57281554">
+              <caret line="133" column="12" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2563#2576#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchParse.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexRequest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/index/IndexRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.866667">
+              <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndicesService.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/indices/IndicesService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-31.133333">
+              <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchRequest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/search/SearchRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2">
+              <caret line="68" column="44" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestActionListener.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/rest/action/support/RestActionListener.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchParse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.103559874">
-              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2555#2556#0" expanded="true" />
-                <element signature="e#2581#2582#0" expanded="true" />
-                <element signature="e#4851#4852#0" expanded="true" />
-                <element signature="e#4907#4908#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnalysisModule.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/analysis/AnalysisModule.class">
+      <file leaf-file-name="FetchPhase.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/fetch/FetchPhase.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.933333">
-              <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamingAggregationModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamingAggregationPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FetchSearchResult.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/fetch/FetchSearchResult.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.333333">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="39" />
+            <state vertical-scroll-proportion="34.8">
+              <caret line="228" column="47" selection-start-line="228" selection-start-column="47" selection-end-line="228" selection-end-column="47" />
               <folding>
-                <element signature="e#1388#1389#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchPhaseController.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/controller/SearchPhaseController.class">
+      <file leaf-file-name="UidAndSourceFieldsVisitor.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/fieldvisitor/UidAndSourceFieldsVisitor.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.2">
-              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="129" />
+            <state vertical-scroll-proportion="-3.6">
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElasticsearchParseException.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/ElasticsearchParseException.class">
+      <file leaf-file-name="FieldsVisitor.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/fieldvisitor/FieldsVisitor.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShardRoutingState.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/cluster/routing/ShardRoutingState.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.8">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShardSearchTransportRequest.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/ShardSearchTransportRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="32" column="181" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="181" />
+            <state vertical-scroll-proportion="14.4">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,8 +168,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/result/AggregationBox.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/result/MemoryResultStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationRestHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationRestHandler.java" />
       </list>
     </option>
   </component>
@@ -189,10 +184,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="x" value="1089" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,30 +212,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="streaming-aggregation">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streaming-aggregation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -365,6 +336,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="streaming-aggregation">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="streaming-aggregation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
@@ -392,8 +387,10 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29502264" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Remote.EleasticSearch">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -506,6 +503,7 @@
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
+      <module name="streaming-aggregation" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
@@ -541,6 +539,22 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="false" name="EleasticSearch" type="Remote" factoryName="Remote">
+      <module name="streaming-aggregation" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Remote.EleasticSearch" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -565,32 +579,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="1089" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4058642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09641434" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36494023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2876494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31394422" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -609,457 +623,465 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/fetch/FetchPhase.class</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="context.sourceRequested()" language="JAVA" custom="" />
+        <watch expression="extractFieldNames" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/rest/action/support/RestActionListener.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/settings/IndexSettingsModule.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding />
+        <state vertical-scroll-proportion="-10.2">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/rest/action/support/RestResponseListener.class">
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar!/sun/org/mozilla/javascript/tools/shell/Environment.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/result/MemoryResultStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7669903">
-          <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2458#2459#0" expanded="false" />
-            <element signature="e#2492#2493#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/rest/RestRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="140" column="16" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/result/AggregationBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-            <element signature="e#972#973#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1044#1045#0" expanded="false" />
-            <element signature="e#1077#1078#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/rest/AggregationRestStatusToXContentListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/rest/BaseRestHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.2">
-          <caret line="124" column="189" selection-start-line="124" selection-start-column="189" selection-end-line="124" selection-end-column="189" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/client/FilterClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0">
-          <caret line="101" column="185" selection-start-line="101" selection-start-column="185" selection-end-line="101" selection-end-column="185" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.724138">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/SearchShardTarget.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/engine/Engine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-426.0">
-          <caret line="936" column="24" selection-start-line="936" selection-start-column="24" selection-end-line="936" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/cache/recycler/CacheRecycler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/DefaultSearchContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="126" column="321" selection-start-line="126" selection-start-column="321" selection-end-line="126" selection-end-column="321" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/ShardSearchLocalRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.4">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/cache/recycler/PageCacheRecycler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.333333">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/management/counter/Counter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/search/SearchRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="266" column="79" selection-start-line="266" selection-start-column="79" selection-end-line="266" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/FilteredSearchContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/SearchContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.6">
-          <caret line="82" column="31" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4.jar!/org/apache/lucene/search/IndexSearcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/ContextIndexSearcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.2">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/client/transport/support/InternalTransportClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.59016395">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="-10.689655">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/client/Client.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.333333">
-          <caret line="183" column="29" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/client/transport/TransportClient.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/discovery/local/LocalDiscoveryModule.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="300" column="16" selection-start-line="300" selection-start-column="16" selection-end-line="300" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/client/support/AbstractClient.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/transport/Transport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.933333">
-          <caret line="271" column="17" selection-start-line="271" selection-start-column="17" selection-end-line="271" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/support/TransportAction.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/transport/local/LocalTransport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/client/node/NodeIndicesAdminClient.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/cluster/metadata/IndexMetaData.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.4">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="80" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/search/TransportSearchAction.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/common/settings/Settings.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1333334">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/search/type/TransportSearchQueryAndFetchAction.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/Version.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/common/component/AbstractComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/SubSearchContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.2">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/cache/IndexCache.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6">
-          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/search/type/TransportSearchTypeAction.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/cache/fixedbitset/FixedBitSetFilterCache.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.8">
-          <caret line="98" column="29" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/client/ElasticsearchClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4">
-          <caret line="18" column="162" selection-start-line="18" selection-start-column="162" selection-end-line="18" selection-end-column="162" />
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="73" column="46" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/ShardSearchRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/node/Node.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/cache/query/parser/QueryParserCacheModule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/cluster/routing/ShardRouting.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/cluster/routing/MutableShardRouting.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/common/inject/AbstractModule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.6">
-          <caret line="118" column="26" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/node/internal/InternalNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6">
-          <caret line="99" column="31" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/cluster/routing/ImmutableShardRouting.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="59" column="134" selection-start-line="59" selection-start-column="124" selection-end-line="59" selection-end-column="141" />
-          <folding>
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/cluster/routing/ShardRoutingState.class">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.8">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="31" />
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/ShardSearchTransportRequest.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/query/IndexQueryParserService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="32" column="181" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="181" />
+        <state vertical-scroll-proportion="0.123853214">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/aliases/IndexAliasesService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6">
+          <caret line="35" column="123" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/analysis/AnalysisService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64285713">
+          <caret line="60" column="77" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/IndexService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2">
+          <caret line="112" column="166" selection-start-line="112" selection-start-column="153" selection-end-line="112" selection-end-column="166" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/ElasticsearchParseException.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/codec/postingsformat/PostingsFormatProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.091836736">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#1630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/similarity/SimilarityLookupService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/mapper/MapperService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.533334">
+          <caret line="113" column="24" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/indices/IndicesWarmer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.4">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/common/util/concurrent/AtomicArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.866667">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/plugins/IndexPluginsModule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/aggregations/Aggregations.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.4">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/aggregations/Aggregation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/InternalSearchResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.6">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/result/MemoryResultStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/http/netty/NettyHttpChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.38435373">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/rest/RestChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8061224">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/rest/action/support/RestResponseListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30612245">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/search/SearchResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.866667">
+          <caret line="36" column="160" selection-start-line="36" selection-start-column="142" selection-end-line="36" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/engine/Engine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.866667">
+          <caret line="940" column="15" selection-start-line="940" selection-start-column="15" selection-end-line="940" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/controller/SearchPhaseController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.2">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="129" />
+        <state vertical-scroll-proportion="-12.4">
+          <caret line="298" column="20" selection-start-line="298" selection-start-column="20" selection-end-line="298" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/SearchContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4.jar!/org/apache/lucene/search/TopDocs.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/InternalSearchHits.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4.jar!/org/apache/lucene/search/ScoreDoc.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/query/QuerySearchResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.4">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/fetch/FetchSearchResult.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.333333">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="39" />
-          <folding>
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationRestHandler.java">
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/nio/ch/EPollArrayWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="37" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="37" />
+        <state vertical-scroll-proportion="-14.689655">
+          <caret line="231" column="1" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/rest/action/support/RestActionListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/fieldvisitor/UidAndSourceFieldsVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/fieldvisitor/FieldsVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.4">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2563#2576#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationModule.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/fetch/FetchPhase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        <state vertical-scroll-proportion="34.8">
+          <caret line="228" column="47" selection-start-line="228" selection-start-column="47" selection-end-line="228" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/search/internal/DefaultSearchContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0666666">
+          <caret line="557" column="0" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15929#15930#0" expanded="true" />
+            <element signature="e#15961#15962#0" expanded="true" />
+            <element signature="e#17290#17291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/search/SearchRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/index/analysis/AnalysisModule.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/indices/IndicesService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.933333">
-          <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+        <state vertical-scroll-proportion="-31.133333">
+          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.5.2/elasticsearch-1.5.2.jar!/org/elasticsearch/action/index/IndexRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.866667">
+          <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/test/SearchParse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.103559874">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2581#2582#0" expanded="true" />
-            <element signature="e#4851#4852#0" expanded="true" />
-            <element signature="e#4907#4908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/plugin/streaming/aggregation/StreamingAggregationRestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.57281554">
+          <caret line="133" column="12" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
