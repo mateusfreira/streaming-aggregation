@@ -198,8 +198,8 @@ public class StreamingAggregationRestHandler extends BaseRestHandler implements 
                 logger.error("Erro",e );
                 channel.sendResponse(new BytesRestResponse(RestStatus.OK, "OK"));
             }
-            //channel.sendResponse(new BytesRestResponse(RestStatus.OK, "OK"));
             */
+            channel.sendResponse(new BytesRestResponse(RestStatus.OK, "OK"));
         }catch (Exception e){
             channel.sendResponse(new BytesRestResponse(RestStatus.OK, "IGNORED"));
             logger.error("Erro",e );
